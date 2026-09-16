@@ -7,7 +7,7 @@ public class Ejercicio_3 {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> numeros = new ArrayList<>();
         int numero_usuario;
-        for (int i=1;i<=10;i++) {
+        for (int i=1;i<=3;i++) {
             System.out.println("Dime un numero pàra añadir a la lista");
             numero_usuario=sc.nextInt();
             numeros.add(numero_usuario);
