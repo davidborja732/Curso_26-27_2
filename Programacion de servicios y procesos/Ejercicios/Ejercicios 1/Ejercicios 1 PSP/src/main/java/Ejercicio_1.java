@@ -1,8 +1,12 @@
+import java.io.IOException;
+
 public class Ejercicio_1 {
     static void main() {
-        System.out.println("Ejercicio 1");
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(i);
+        try {
+            Process process= new ProcessBuilder("C:\\Program Files\\Notepad++\\notepad++.exe","Archivos/PSP_DOC.txt").start();
+            System.out.println("Lanzado proceso notepad con java. PID: " + process.pid());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }
