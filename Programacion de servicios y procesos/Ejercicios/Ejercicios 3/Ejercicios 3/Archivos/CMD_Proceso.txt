@@ -1,0 +1,5 @@
+whoami
+echo "Archivos"
+cd
+ehco "EJ2_Errores"
+dir
