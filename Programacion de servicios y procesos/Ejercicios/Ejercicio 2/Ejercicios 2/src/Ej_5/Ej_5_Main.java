@@ -23,9 +23,9 @@ public class Ej_5_Main {
         System.out.println("Saldo inicial: " + saldo.getSaldo());
         Random random=new Random();
 
-        Thread t1 = new Thread(new Operacion(saldo, random.nextInt(1,230), "Hilo1"));
-        Thread t2 = new Thread(new Operacion(saldo, random.nextInt(4,220), "Hilo2"));
-        Thread t3 = new Thread(new Operacion(saldo, random.nextInt(9,90), "Hilo3"));
+        Thread t1 = new Thread(new Operacion(saldo, random.nextInt(1,230), "Hilo 1"));
+        Thread t2 = new Thread(new Operacion(saldo, random.nextInt(4,220), "Hilo 2"));
+        Thread t3 = new Thread(new Operacion(saldo, random.nextInt(9,90), "Hilo 3"));
 
         t1.start();
         t2.start();

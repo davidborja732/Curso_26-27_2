@@ -22,6 +22,7 @@ hilo que imprime por consola cada vez que muestres un mensaje de salida.
 * */
 public class Ej_4 {
     public static void main(String[] args) {
+        // Ejecucion CMD
         //int tiempoMax = Integer.parseInt(args[0]);
         int tiempoMax =10;
         String[] mensajes = {"Programas", "Procesos", "Servicios", "Hilos"};
