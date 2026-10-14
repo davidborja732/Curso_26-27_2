@@ -25,13 +25,18 @@ public class Ej_4 {
         // Ejecucion CMD
         //int tiempoMax = Integer.parseInt(args[0]);
         int tiempoMax =10;
-        String[] mensajes = {"Programas", "Procesos", "Servicios", "Hilos"};
+        String[] mensajes = {"Inicio del programa",
+                "Procesos",
+                "Servicios",
+                "Multihilo",
+                "Sincronización",
+                "Fin del programa"};
 
         Thread hilo = new Thread(() -> {
             for (int i = 0; i < mensajes.length; i++) {
                 System.out.println("Hilo 2 " + mensajes[i]);
                 try {
-                    Thread.sleep(4000);
+                    Thread.sleep(3000);
                 } catch (InterruptedException e) {
                     for (int j = i + 1; j < mensajes.length; j++)
                         System.out.println("Hilo 2 "+mensajes[j]);
