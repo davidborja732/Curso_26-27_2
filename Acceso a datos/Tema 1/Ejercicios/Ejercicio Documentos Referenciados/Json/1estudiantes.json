@@ -1,0 +1,72 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Ana Martínez",
+    "email": "ana.martinez@email.com",
+    "edad": 22,
+    "ciudad": "Madrid",
+    "fecha_registro": "2024-09-15",
+    "nivel": "intermedio",
+    "intereses": ["programación", "diseño", "marketing"]
+  },
+  {
+    "_id": 2,
+    "nombre": "Carlos López",
+    "email": "carlos.lopez@email.com",
+    "edad": 28,
+    "ciudad": "Barcelona",
+    "fecha_registro": "2024-08-20",
+    "nivel": "avanzado",
+    "intereses": ["programación", "datos", "inteligencia artificial"]
+  },
+  {
+    "_id": 3,
+    "nombre": "Laura Sánchez",
+    "email": "laura.sanchez@email.com",
+    "edad": 19,
+    "ciudad": "Valencia",
+    "fecha_registro": "2024-10-05",
+    "nivel": "principiante",
+    "intereses": ["diseño", "fotografía"]
+  },
+  {
+    "_id": 4,
+    "nombre": "Miguel Torres",
+    "email": "miguel.torres@email.com",
+    "edad": 35,
+    "ciudad": "Sevilla",
+    "fecha_registro": "2024-07-12",
+    "nivel": "avanzado",
+    "intereses": ["programación", "ciberseguridad"]
+  },
+  {
+    "_id": 5,
+    "nombre": "Elena Ruiz",
+    "email": "elena.ruiz@email.com",
+    "edad": 24,
+    "ciudad": "Madrid",
+    "fecha_registro": "2024-09-28",
+    "nivel": "intermedio",
+    "intereses": ["marketing", "redes sociales", "diseño"]
+  },
+  {
+    "_id": 6,
+    "nombre": "David Fernández",
+    "email": "david.fernandez@email.com",
+    "edad": 31,
+    "ciudad": "Bilbao",
+    "fecha_registro": "2024-06-18",
+    "nivel": "intermedio",
+    "intereses": ["programación", "base de datos"]
+  },
+  {
+    "_id": 7,
+    "nombre": "Sara Jiménez",
+    "email": "sara.jimenez@email.com",
+    "edad": 26,
+    "ciudad": "Barcelona",
+    "fecha_registro": "2024-08-30",
+    "nivel": "principiante",
+    "intereses": ["diseño", "marketing"]
+  }
+]

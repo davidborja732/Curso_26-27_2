@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 101,
+    "titulo": "Python para Principiantes",
+    "instructor_id": 1001,
+    "categoria": "Programación",
+    "nivel": "principiante",
+    "duracion_horas": 40,
+    "precio": 49.99,
+    "calificacion": 4.7,
+    "fecha_creacion": "2024-01-15",
+    "activo": true
+  },
+  {
+    "_id": 102,
+    "titulo": "JavaScript Avanzado",
+    "instructor_id": 1001,
+    "categoria": "Programación",
+    "nivel": "avanzado",
+    "duracion_horas": 60,
+    "precio": 89.99,
+    "calificacion": 4.9,
+    "fecha_creacion": "2024-02-20",
+    "activo": true
+  },
+  {
+    "_id": 103,
+    "titulo": "Diseño Gráfico con Photoshop",
+    "instructor_id": 1002,
+    "categoria": "Diseño",
+    "nivel": "intermedio",
+    "duracion_horas": 35,
+    "precio": 59.99,
+    "calificacion": 4.5,
+    "fecha_creacion": "2024-03-10",
+    "activo": true
+  },
+  {
+    "_id": 104,
+    "titulo": "Marketing Digital Completo",
+    "instructor_id": 1003,
+    "categoria": "Marketing",
+    "nivel": "intermedio",
+    "duracion_horas": 50,
+    "precio": 69.99,
+    "calificacion": 4.8,
+    "fecha_creacion": "2024-01-25",
+    "activo": true
+  },
+  {
+    "_id": 105,
+    "titulo": "Bases de Datos MongoDB",
+    "instructor_id": 1001,
+    "categoria": "Programación",
+    "nivel": "intermedio",
+    "duracion_horas": 45,
+    "precio": 79.99,
+    "calificacion": 4.6,
+    "fecha_creacion": "2024-04-05",
+    "activo": true
+  },
+  {
+    "_id": 106,
+    "titulo": "UX/UI Design Fundamentals",
+    "instructor_id": 1002,
+    "categoria": "Diseño",
+    "nivel": "principiante",
+    "duracion_horas": 30,
+    "precio": 54.99,
+    "calificacion": 4.4,
+    "fecha_creacion": "2024-05-12",
+    "activo": true
+  },
+  {
+    "_id": 107,
+    "titulo": "Ciberseguridad Ética",
+    "instructor_id": 1004,
+    "categoria": "Programación",
+    "nivel": "avanzado",
+    "duracion_horas": 70,
+    "precio": 99.99,
+    "calificacion": 4.9,
+    "fecha_creacion": "2024-02-28",
+    "activo": true
+  },
+  {
+    "_id": 108,
+    "titulo": "Instagram para Negocios",
+    "instructor_id": 1003,
+    "categoria": "Marketing",
+    "nivel": "principiante",
+    "duracion_horas": 20,
+    "precio": 39.99,
+    "calificacion": 4.3,
+    "fecha_creacion": "2024-06-08",
+    "activo": true
+  },
+  {
+    "_id": 109,
+    "titulo": "Inteligencia Artificial con Python",
+    "instructor_id": 1004,
+    "categoria": "Programación",
+    "nivel": "avanzado",
+    "duracion_horas": 80,
+    "precio": 109.99,
+    "calificacion": 4.8,
+    "fecha_creacion": "2024-03-22",
+    "activo": true
+  },
+  {
+    "_id": 110,
+    "titulo": "Fotografía Digital",
+    "instructor_id": 1002,
+    "categoria": "Diseño",
+    "nivel": "principiante",
+    "duracion_horas": 25,
+    "precio": 44.99,
+    "calificacion": 4.2,
+    "fecha_creacion": "2024-07-01",
+    "activo": false
+  }
+]
