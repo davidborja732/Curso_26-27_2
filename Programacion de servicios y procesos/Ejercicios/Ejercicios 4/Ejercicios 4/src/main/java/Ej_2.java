@@ -2,7 +2,7 @@ public class Ej_2 {
 
     public static void main(String[] args) {
 
-        int tiempoMax = 10;
+        int tiempoMax = 7;
         // int tiempoMax = Integer.parseInt(args[0]);
 
         String[] mensajes = {

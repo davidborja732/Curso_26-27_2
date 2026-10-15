@@ -23,6 +23,7 @@ public class ColaTrabajos {
         notifyAll();
     }
 
+    
     public synchronized Integer consumir()
             throws InterruptedException {
 

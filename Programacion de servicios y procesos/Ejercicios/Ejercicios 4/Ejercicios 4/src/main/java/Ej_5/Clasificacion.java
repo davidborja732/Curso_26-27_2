@@ -21,7 +21,7 @@ public class Clasificacion {
 
     public void mostrarClasificacion() {
 
-        System.out.println("\nCLASIFICACIÓN FINAL");
+        System.out.println("\nCLASIFICACION FINAL");
 
         for (String corredor : podio) {
             System.out.println(corredor);

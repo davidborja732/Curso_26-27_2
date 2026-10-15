@@ -43,7 +43,15 @@ public class Ej_3_Main {
 
         public static void main(String[] args) {
 
-            Cuenta cuenta = new Cuenta(1000);
+            /*Cuenta cuenta = new Cuenta(1000);
+
+            Thread t1 = new Thread(new OperacionCuenta(cuenta, true), "Ingresador-1");
+            Thread t2 = new Thread(new OperacionCuenta(cuenta, true), "Ingresador-2");
+            Thread t3 = new Thread(new OperacionCuenta(cuenta, false), "Retirador-1");
+            Thread t4 = new Thread(new OperacionCuenta(cuenta, false), "Retirador-2");
+            Thread t5 = new Thread(new OperacionCuenta(cuenta, true), "Ingresador-3");*/
+
+            Cuenta_Sync cuenta = new Cuenta_Sync(1000);
 
             Thread t1 = new Thread(new OperacionCuenta(cuenta, true), "Ingresador-1");
             Thread t2 = new Thread(new OperacionCuenta(cuenta, true), "Ingresador-2");

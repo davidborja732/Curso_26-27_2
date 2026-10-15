@@ -3,11 +3,15 @@ package Ej_3;
 import java.util.Random;
 
 public class OperacionCuenta implements Runnable {
-
-    private Cuenta cuenta;
+    private Cuenta_Sync cuenta;
+    //private Cuenta cuenta;
     private boolean ingreso;
 
-    public OperacionCuenta(Cuenta cuenta, boolean ingreso) {
+    /*public OperacionCuenta(Cuenta cuenta, boolean ingreso) {
+        this.cuenta = cuenta;
+        this.ingreso = ingreso;
+    }*/
+    public OperacionCuenta(Cuenta_Sync cuenta, boolean ingreso) {
         this.cuenta = cuenta;
         this.ingreso = ingreso;
     }
