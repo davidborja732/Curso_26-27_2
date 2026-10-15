@@ -10,9 +10,7 @@ public class Ej_4_Main {
                 new Productor(cola),
                 "Productor-1");
 
-        Thread p2 = new Thread(
-                new Productor(cola),
-                "Productor-2");
+
 
         Thread c1 = new Thread(
                 new Consumidor(cola),
@@ -23,14 +21,14 @@ public class Ej_4_Main {
                 "Consumidor-2");
 
         p1.start();
-        p2.start();
+
         c1.start();
         c2.start();
 
         try {
 
             p1.join();
-            p2.join();
+
 
             c1.join();
             c2.join();
