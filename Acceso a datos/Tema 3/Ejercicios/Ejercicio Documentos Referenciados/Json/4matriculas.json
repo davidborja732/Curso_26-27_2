@@ -1,0 +1,134 @@
+[
+  {
+    "_id": 501,
+    "estudiante_id": 1,
+    "curso_id": 101,
+    "fecha_matricula": "2024-10-01",
+    "fecha_inicio": "2024-10-05",
+    "fecha_fin": "2024-11-15",
+    "progreso": 85,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 502,
+    "estudiante_id": 1,
+    "curso_id": 103,
+    "fecha_matricula": "2024-10-10",
+    "fecha_inicio": "2024-10-12",
+    "fecha_fin": "2024-11-20",
+    "progreso": 60,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 503,
+    "estudiante_id": 2,
+    "curso_id": 102,
+    "fecha_matricula": "2024-09-15",
+    "fecha_inicio": "2024-09-18",
+    "fecha_fin": "2024-11-10",
+    "progreso": 100,
+    "completado": true,
+    "calificacion_estudiante": 5
+  },
+  {
+    "_id": 504,
+    "estudiante_id": 2,
+    "curso_id": 105,
+    "fecha_matricula": "2024-11-01",
+    "fecha_inicio": "2024-11-05",
+    "fecha_fin": "2024-12-20",
+    "progreso": 40,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 505,
+    "estudiante_id": 3,
+    "curso_id": 106,
+    "fecha_matricula": "2024-10-15",
+    "fecha_inicio": "2024-10-18",
+    "fecha_fin": "2024-11-25",
+    "progreso": 30,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 506,
+    "estudiante_id": 4,
+    "curso_id": 107,
+    "fecha_matricula": "2024-08-20",
+    "fecha_inicio": "2024-08-25",
+    "fecha_fin": "2024-10-30",
+    "progreso": 100,
+    "completado": true,
+    "calificacion_estudiante": 5
+  },
+  {
+    "_id": 507,
+    "estudiante_id": 4,
+    "curso_id": 109,
+    "fecha_matricula": "2024-11-10",
+    "fecha_inicio": "2024-11-15",
+    "fecha_fin": "2025-01-30",
+    "progreso": 15,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 508,
+    "estudiante_id": 5,
+    "curso_id": 104,
+    "fecha_matricula": "2024-10-05",
+    "fecha_inicio": "2024-10-08",
+    "fecha_fin": "2024-11-28",
+    "progreso": 100,
+    "completado": true,
+    "calificacion_estudiante": 4
+  },
+  {
+    "_id": 509,
+    "estudiante_id": 5,
+    "curso_id": 108,
+    "fecha_matricula": "2024-11-12",
+    "fecha_inicio": "2024-11-14",
+    "fecha_fin": "2024-12-05",
+    "progreso": 50,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 510,
+    "estudiante_id": 6,
+    "curso_id": 105,
+    "fecha_matricula": "2024-09-10",
+    "fecha_inicio": "2024-09-15",
+    "fecha_fin": "2024-11-05",
+    "progreso": 100,
+    "completado": true,
+    "calificacion_estudiante": 5
+  },
+  {
+    "_id": 511,
+    "estudiante_id": 7,
+    "curso_id": 103,
+    "fecha_matricula": "2024-10-20",
+    "fecha_inicio": "2024-10-22",
+    "fecha_fin": "2024-12-01",
+    "progreso": 25,
+    "completado": false,
+    "calificacion_estudiante": null
+  },
+  {
+    "_id": 512,
+    "estudiante_id": 3,
+    "curso_id": 110,
+    "fecha_matricula": "2024-07-15",
+    "fecha_inicio": "2024-07-20",
+    "fecha_fin": "2024-08-15",
+    "progreso": 100,
+    "completado": true,
+    "calificacion_estudiante": 4
+  }
+]

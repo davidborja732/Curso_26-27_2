@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1001,
+    "nombre": "Roberto García",
+    "especialidad": "Programación",
+    "años_experiencia": 12,
+    "email": "roberto.garcia@plataforma.com",
+    "pais": "España",
+    "certificaciones": ["AWS Certified", "Python Expert", "MongoDB Associate"]
+  },
+  {
+    "_id": 1002,
+    "nombre": "Patricia Moreno",
+    "especialidad": "Diseño",
+    "años_experiencia": 8,
+    "email": "patricia.moreno@plataforma.com",
+    "pais": "España",
+    "certificaciones": ["Adobe Certified Expert", "UX Design Professional"]
+  },
+  {
+    "_id": 1003,
+    "nombre": "Andrés Molina",
+    "especialidad": "Marketing",
+    "años_experiencia": 10,
+    "email": "andres.molina@plataforma.com",
+    "pais": "México",
+    "certificaciones": ["Google Analytics", "Facebook Blueprint", "HubSpot Marketing"]
+  },
+  {
+    "_id": 1004,
+    "nombre": "Carmen Delgado",
+    "especialidad": "Ciberseguridad",
+    "años_experiencia": 15,
+    "email": "carmen.delgado@plataforma.com",
+    "pais": "España",
+    "certificaciones": ["CISSP", "CEH", "CompTIA Security+"]
+  }
+]

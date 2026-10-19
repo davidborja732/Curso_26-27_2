@@ -15,11 +15,7 @@ public class Main {
         Thread c2 = new Thread(
                 new Consumidor(cola),
                 "Consumidor-2");
-
         p1.start();
-
-
-
         c1.start();
         c2.start();
         try {
