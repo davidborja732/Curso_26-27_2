@@ -1,5 +1,6 @@
 package org.iesch.ad.demoSpring1.modelo;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -34,6 +35,8 @@ public class Persona {
         System.out.println("Se guarda la persona con ID " +this.id);
     }
     @OneToOne(cascade = CascadeType.ALL)
+            //@JsonManagedReference
+            @JoinColumn(name="coche_id",referencedColumnName = "id")
     Coche coche;
 
 }

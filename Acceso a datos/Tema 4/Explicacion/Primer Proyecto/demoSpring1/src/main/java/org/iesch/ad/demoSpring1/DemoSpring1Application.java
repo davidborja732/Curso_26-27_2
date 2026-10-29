@@ -1,8 +1,11 @@
 package org.iesch.ad.demoSpring1;
 
+import org.iesch.ad.demoSpring1.modelo.Cliente;
 import org.iesch.ad.demoSpring1.modelo.Coche;
 import org.iesch.ad.demoSpring1.modelo.Persona;
+import org.iesch.ad.demoSpring1.repositorio.ClienteRepositorio;
 import org.iesch.ad.demoSpring1.repositorio.CocheRepositorio;
+import org.iesch.ad.demoSpring1.repositorio.OrdenRepositorio;
 import org.iesch.ad.demoSpring1.repositorio.PersonaRepositorio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -21,6 +24,10 @@ public class DemoSpring1Application implements CommandLineRunner {
 	PersonaRepositorio personaRepositorio;
 	@Autowired
 	CocheRepositorio cocheRepositorio;
+	@Autowired
+	OrdenRepositorio ordenRepositorio;
+	@Autowired
+    ClienteRepositorio clienteRepositorio;
 	/*public DemoSpring1Application(PersonaRepositorio personaRepositorio) {
 		this.personaRepositorio = personaRepositorio;
 	}*/
@@ -59,7 +66,7 @@ public class DemoSpring1Application implements CommandLineRunner {
 		// personaRepositorio.save(p);
 		// personaRepositorio.save(persona2);
 		// personaRepositorio.save(personaconfiguracion);
-
+		/*
 		// Obtener todas las personas
 		List<Persona> personas = personaRepositorio.findAll();
 		System.out.println(personas);
@@ -148,7 +155,36 @@ public class DemoSpring1Application implements CommandLineRunner {
 
 		if (coches.isPresent()) {
 			System.out.println(coches.get());
+		}*/
+		/*System.out.println("OneToOne Bidireccional");
+		Coche coche = new Coche();
+		coche.setMarca("Porsche");
+		coche.setModelo("911");
+		coche.setMatricula("9854THU");
+
+		Persona personaCoche = new Persona();
+		personaCoche.setNombre("Coche");
+		personaCoche.setApellido("Bidireccional");
+		personaCoche.setDni("90876542K");
+		personaCoche.setEmail("nuevobidireccional@gmail.com");
+		/*personaRepositorio.save(personaCoche);
+		cocheRepositorio.save(coche);
+		personaCoche.setCoche(coche);
+		coche.setPersona(personaCoche);
+		personaRepositorio.save(personaCoche);*/
+		/*System.out.println("Peta bidireccional");
+		Optional<Persona> persona = personaRepositorio.findById(14L);
+		if(persona.isPresent()) {
+			Persona p = persona.get();
+			System.out.println(p);
 		}
+		Optional<Coche> coche = cocheRepositorio.findById(8);
+		if(coche.isPresent()) {
+			Coche p = coche.get();
+			System.out.println(p);
+			System.out.println(p.getPersona().getApellido());
+		}*/
+
 	}
 
 	public static void main(String[] args) {
