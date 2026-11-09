@@ -1,19 +1,16 @@
 package org.iesch.ad.demoSpring1;
 
-import org.iesch.ad.demoSpring1.modelo.Cliente;
-import org.iesch.ad.demoSpring1.modelo.Coche;
-import org.iesch.ad.demoSpring1.modelo.Persona;
-import org.iesch.ad.demoSpring1.repositorio.ClienteRepositorio;
-import org.iesch.ad.demoSpring1.repositorio.CocheRepositorio;
-import org.iesch.ad.demoSpring1.repositorio.OrdenRepositorio;
-import org.iesch.ad.demoSpring1.repositorio.PersonaRepositorio;
+import org.iesch.ad.demoSpring1.modelo.*;
+import org.iesch.ad.demoSpring1.repositorio.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 import static java.lang.Long.valueOf;
 
@@ -28,6 +25,10 @@ public class DemoSpring1Application implements CommandLineRunner {
 	OrdenRepositorio ordenRepositorio;
 	@Autowired
     ClienteRepositorio clienteRepositorio;
+	@Autowired
+    StudentRepositorio studentRepositorio;
+	@Autowired
+	CursosRepositorio cursosRepositorio;
 	/*public DemoSpring1Application(PersonaRepositorio personaRepositorio) {
 		this.personaRepositorio = personaRepositorio;
 	}*/
@@ -184,6 +185,20 @@ public class DemoSpring1Application implements CommandLineRunner {
 			System.out.println(p);
 			System.out.println(p.getPersona().getApellido());
 		}*/
+		System.out.println("ManyToMany - Unidireccional");
+		/*Student student = new Student();
+		Curso curso1 = new Curso();
+		Curso curso2 = new Curso();
+		Curso curso3 = new Curso();
+		curso1.setNombre("Java");
+		curso2.setNombre("Python");
+		curso3.setNombre("PHP");
+		student.setNombre("Jose");
+		student.setCursos(Set.of(curso1, curso2, curso3));
+		System.out.println(student);
+		studentRepositorio.save(student);*/
+		System.out.println("ManyToMany - Bidireccional");
+
 
 	}
 
